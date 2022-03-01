@@ -12,6 +12,8 @@ from mod_mfa import mod_mfa
 from mod_posts import mod_posts
 from mod_user import mod_user
 
+# hey, new change, feb 2022
+
 app = Flask('vulpy')
 app.config['SECRET_KEY'] = 'aaaaaaa'
 
